@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fcefdc;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header {
+    background-color: #c0392b;
+    padding: 20px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(236, 220, 175);
+    font-size: 18px;
+    font-weight: bold;
+ 
+}
+
+.menu a:hover {
+    color: #e0b04e;
+}
+
+.search input {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.user img {
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    padding: 335px 50px;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.5)),
+        url("https://img.freepik.com/vetores-gratis/padrao-guingao-fundo-vermelho_78370-2241.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.titulo-principal {
+    font-size: 60px;
+    color: #53567e;
+    font-family: "Londrina Sketch", sans-serif;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: #9f3413;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.botao-entrar {
+    background-color: #53567e;
+    color: #ffffff ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.botao-entrar:hover {
+    background-color: #6a6eb0; 
+}
+
+.pizza {
+    position: absolute;
+    width: 500px;
+}
+
+.esquerda {
+    left: 5%;
+    bottom: 10px;
+}
+
+.direita {
+    right: 3%;
+    bottom: 10px;
+}
+
+/* Responsividade para tablets */
+@media screen and (max-width: 1024px) {
+    .titulo-principal {
+        font-size: 45px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .botao-entrar {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .pizza {
+        width: 350px;
+    }
+
+    main {
+        padding: 200px 30px;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+}
+
+/* Responsividade para smartphones */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .search input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .user img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 35px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .botao-entrar {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+
+    .pizza {
+        display: none; /* Oculta as imagens de pizza em telas pequenas */
+    }
+
+    main {
+        padding: 150px 20px;
+    }
+}

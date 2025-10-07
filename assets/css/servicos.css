@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  color: #b66509;
+  text-align: center;
+
+  /* imagem de fundo */
+  background-image: url("https://i.pinimg.com/1200x/0b/d9/b2/0bd9b2996cc2dbee91c97d563cc2fc31.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.anninha{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* container das pizzas deitada */
+.pizzas-anninha {
+  display: flex;
+  justify-content:center; /* centraliza deitado */
+  align-items: flex-start; /* alinha ao topo */
+  flex-wrap: wrap;
+  gap: 55px; /* diminui o espaço entre quadrados */
+  padding: 50px; /* diminui o padding do container */
+}
+
+/* Cada bloco de pizza */
+.pizza {
+  background-color: #fff2df;
+  border: 3px solid #ef4a3e;
+  border-radius: 15px;
+  padding: 15px; /* diminuiu o padding */
+  width: 200px; /* largura menor */
+  text-align: center;
+ 
+}
+
+.pizza h2 {
+  font-size: 1.2em; /*tamanho */
+  color: #b72a00;
+  text-shadow: 1px 1px 2px #ffe5b4;
+  font-family: "Playfair Display", serif;
+}
+
+.pizza p {
+  font-style: italic;
+  color: #4b2600;
+  font-size: 0.8em; /* diminuiu o texto */
+}
+
+.pizza ul {
+  text-align: left;
+  margin: 10px auto;
+  width: 90%;
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+.pizza li {
+  margin: 2px 0;
+}
+
+.pizza img {
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 10px;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+  border: 3px solid #ffffff;
+}
+
+
+
+
