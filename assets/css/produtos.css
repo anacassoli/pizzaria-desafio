@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +8,8 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   padding-top: 10px;
-  background: linear-gradient( rgba(159, 45, 45, 0.9), rgba(255, 223, 167, 0.9));
-  background-color: #ffd09e;
+  background: linear-gradient( rgba(159, 45, 45, 0.9), rgba(255, 229, 185, 0.9));
+  background-color: #ffdcb7;
   padding-bottom: 190px;
 }
 
@@ -37,9 +38,9 @@ header h1 {
 
 /* Card pizza */
 .cards-pizza {
-  background-color: #fffaf3;
-  border: 2px solid #d65b35;
-  border-radius: 5px;
+  background-color: #fde2bd;
+  border: 3px solid #d65b35;
+  border-radius: 3px;
   width: 240px;
   text-align: center;
   padding: 35px 15px 65px;
@@ -63,7 +64,7 @@ header h1 {
 
 /* Botão */
 button {
-  background-color: #64719e;
+  background-color: #8189a8;
   color: rgb(76, 43, 4);
   border: none;
   border-radius: 50px;
