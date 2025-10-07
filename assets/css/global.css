@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Lara*/
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
 .menu a {
@@ -21,4 +22,10 @@ main {
 }
 .botao-entrar:hover {
     background-color: #6a6eb0; 
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+>>>>>>> 4c17bc8c5ba44377f7866f1e2adfc664b577bb03
 }
