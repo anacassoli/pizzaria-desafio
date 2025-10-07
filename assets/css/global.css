@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-pizza {
+  background-color: #fde2bd;
+  border: 3px solid #d65b35;
+}
+.cards-pizza h2 {
+     color: #5c2b1a;
+  font-weight: bold;
+}
+
+button {
+  background-color: #8189a8;
+  color: rgb(76, 43, 4);
+}
