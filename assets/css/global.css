@@ -21,3 +21,18 @@ main {
 }
 .botao-entrar:hover {
     background-color: #6a6eb0; 
+
+.cards-pizza {
+  background-color: #fde2bd;
+  border: 3px solid #d65b35;
+}
+.cards-pizza h2 {
+     color: #5c2b1a;
+  font-weight: bold;
+}
+
+button {
+  background-color: #8189a8;
+  color: rgb(76, 43, 4);
+}
+
