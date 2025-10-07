@@ -103,3 +103,78 @@ main {
     right: 3%;
     bottom: 10px;
 }
+
+/* Responsividade para tablets */
+@media screen and (max-width: 1024px) {
+    .titulo-principal {
+        font-size: 45px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .botao-entrar {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .pizza {
+        width: 350px;
+    }
+
+    main {
+        padding: 200px 30px;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+}
+
+/* Responsividade para smartphones */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .search input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .user img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 35px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .botao-entrar {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+
+    .pizza {
+        display: none; /* Oculta as imagens de pizza em telas pequenas */
+    }
+
+    main {
+        padding: 150px 20px;
+    }
+}
