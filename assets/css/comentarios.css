@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Fundo geral */
+.nickFundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: "Inria Serif", serif;
+    padding: 400px 0;
+    background-color: #f9f5d8;
+}
+
+/* Título */
+.nick-Titulo h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #5c2b1a;
+    margin-bottom: 20px;
+}
+
+/* Container */
+.nickContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Reduzi o gap para o padrão original, caso as caixas menores voltem */
+}
+
+/* Comentários (Boxes Gerais) */
+.nickCaixa1 {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Agora as coisas fluirão em coluna dentro da box */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda dentro da box */
+    
+    background: #fff3d4;
+    border: 3px solid #d65b35;
+    border-radius: 8px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    
+    /* Tamanho da box - Ajustado para o exemplo da imagem */
+    width: 600px; /* Ajustei a largura para caber o conteúdo da imagem */
+    height: auto; /* A altura será definida pelo conteúdo */
+    padding: 30px; /* Padding interno para o conteúdo da caixa */
+    padding-top: 50px; /* Mais padding no topo para a barra */
+    box-sizing: border-box;
+    text-align: left; /* Alinhamento do texto padrão da caixa */
+}
+
+/* Adiciona a barra superior vermelha */
+.nickCaixa1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px; /* Altura da barra */
+    background-color: #d65b35;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.imagemRedonda {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    margin-right: 15px; /* Espaçamento entre o avatar e as informações */
+    border: 2px solid #d65b35; /* Borda ao redor do avatar */
+}
+
+.cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nome-1 {
+    font-family: "Inria Serif", serif;
+    display: flex;
+    align-items: baseline; /* Alinha o texto da data com a linha de base do nome */
+    margin-bottom: 5px; /* Espaço entre o nome/data e os corações */
+}
+
+.nome-2 {
+    font-family: "Inria Serif", serif;
+    display: flex;
+    align-items: baseline; /* Alinha o texto da data com a linha de base do nome */
+    margin-bottom: 5px; /* Espaço entre o nome/data e os corações */
+}
+
+
+.data {
+    font-size: 16px;
+    color: #d65b35; /* Cor da data semelhante à da imagem */
+    font-weight: 400;
+    margin-left: 5px; /* Espaçamento da data do nome */
+}
+
+.avaliação  {
+    font-size: 20px; /* Tamanho dos corações */
+    color: #d65b35; /* Cor dos corações (vermelho/terracota) */
+    margin-right: 2px; /* Espaçamento entre os corações */
+}
+
+.nickComentário {
+    font-size: 22px; /* Tamanho do texto do comentário */
+    color: #5c2b1a; /* Cor do texto do comentário */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    margin: 0; /* Remove margens padrão do parágrafo */
+    text-align: left; /* Garante que o texto fique alinhado à esquerda */
+}
+
