@@ -43,3 +43,28 @@ button {
   color: rgb(76, 43, 4);
 }
 
+.xadrez {
+    background: repeating-linear-gradient(
+        to right,
+        #c63a2a 0 100px,
+        #efdcba 100px 200px
+    );
+
+.xadrez h1 {
+    font-family: 'Playfair Display', serif;
+    color: #000;
+}
+
+.contato {
+    background-color: #5e707e;
+    display: flex;
+    color: #fff;
+}
+
+.card p {
+    color: #d9d9d9;
+}
+
+.card .info {
+    color: #fff;
+}
