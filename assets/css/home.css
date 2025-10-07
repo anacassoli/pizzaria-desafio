@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fcefdc;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header {
+    background-color: #c0392b;
+    padding: 20px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(236, 220, 175);
+    font-size: 18px;
+    font-weight: bold;
+ 
+}
+
+.menu a:hover {
+    color: #e0b04e;
+}
+
+.search input {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.user img {
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    padding: 335px 50px;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.5)),
+        url("https://img.freepik.com/vetores-gratis/padrao-guingao-fundo-vermelho_78370-2241.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.titulo-principal {
+    font-size: 60px;
+    color: #53567e;
+    font-family: "Londrina Sketch", sans-serif;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: #9f3413;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.botao-entrar {
+    background-color: #53567e;
+    color: #ffffff ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.botao-entrar:hover {
+    background-color: #6a6eb0; 
+}
+
+.pizza {
+    position: absolute;
+    width: 500px;
+}
+
+.esquerda {
+    left: 5%;
+    bottom: 10px;
+}
+
+.direita {
+    right: 3%;
+    bottom: 10px;
+}
