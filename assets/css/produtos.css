@@ -88,3 +88,75 @@ button {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
 
+/* Responsivo para tablets */
+@media (max-width: 992px) {
+  .ana-container {
+    gap: 30px;
+  }
+
+  .cards-pizza {
+    width: 200px;
+    padding: 30px 15px 60px;
+  }
+
+  .cards-pizza h2 {
+    font-size: 1.4em;
+  }
+
+  button {
+    font-size: 0.95em;
+    padding: 8px 20px;
+  }
+
+  .cards-pizza img {
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 600px) {
+  header {
+    padding: 40px 0 20px;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  .ana-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 60px;
+  }
+
+  .cards-pizza {
+    width: 90%;
+    max-width: 300px;
+    padding: 25px 15px 55px;
+  }
+
+  .cards-pizza h2 {
+    font-size: 1.2em;
+  }
+
+  .estrelas-ana {
+    font-size: 0.6em;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px 18px;
+  }
+
+  .cards-pizza img {
+    width: 90px;
+    height: 90px;
+    bottom: -45px;
+  }
+}
