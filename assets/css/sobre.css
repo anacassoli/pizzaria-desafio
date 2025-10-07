@@ -97,3 +97,74 @@ body {
     height: 250px;
   }
 }
+.giovanna-contieri-section {
+  display: flex;
+  flex-direction: row; 
+  gap: 80px;
+  text-align: left;
+}
+
+.giovanna-contieri-titulo {
+  font-size: 48px;
+}
+
+.giovanna-contieri-paragrafo {
+  font-size: 20px;
+}
+
+.giovanna-contieri-imagem img {
+  width: 400px;
+}
+
+.giovanna-contieri-fundo-gradiente {
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 900px) {
+  .giovanna-contieri-section {
+    flex-direction: column; /* empilha os elementos */
+    gap: 40px;
+    text-align: center;
+  }
+
+  .giovanna-contieri-titulo {
+    font-size: 34px;
+  }
+
+  .giovanna-contieri-paragrafo {
+    font-size: 18px;
+  }
+
+  .giovanna-contieri-imagem img {
+    width: 260px;
+  }
+
+  .giovanna-contieri-fundo-gradiente {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .giovanna-contieri-section {
+    gap: 20px;
+  }
+
+  .giovanna-contieri-titulo {
+    font-size: 28px;
+  }
+
+  .giovanna-contieri-paragrafo {
+    font-size: 16px;
+  }
+
+  .giovanna-contieri-imagem img {
+    width: 180px;
+  }
+
+  .giovanna-contieri-fundo-gradiente {
+    width: 150px;
+    height: 150px;
+  }
+}
