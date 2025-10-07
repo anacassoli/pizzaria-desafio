@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +8,8 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   padding-top: 10px;
-  background: linear-gradient( rgba(159, 45, 45, 0.9), rgba(255, 223, 167, 0.9));
-  background-color: #ffd09e;
+  background: linear-gradient( rgba(178, 56, 56, 0.9), rgba(255, 229, 185, 0.9));
+  background-color: #ffdcb7;
   padding-bottom: 190px;
 }
 
@@ -37,9 +38,9 @@ header h1 {
 
 /* Card pizza */
 .cards-pizza {
-  background-color: #fffaf3;
-  border: 2px solid #d65b35;
-  border-radius: 5px;
+  background-color: #fde2bd;
+  border: 3px solid #d65b35;
+  border-radius: 3px;
   width: 240px;
   text-align: center;
   padding: 35px 15px 65px;
@@ -63,7 +64,7 @@ header h1 {
 
 /* Botão */
 button {
-  background-color: #64719e;
+  background-color: #8189a8;
   color: rgb(76, 43, 4);
   border: none;
   border-radius: 50px;
@@ -87,3 +88,75 @@ button {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
 
+/* Responsivo para tablets */
+@media (max-width: 992px) {
+  .ana-container {
+    gap: 30px;
+  }
+
+  .cards-pizza {
+    width: 200px;
+    padding: 30px 15px 60px;
+  }
+
+  .cards-pizza h2 {
+    font-size: 1.4em;
+  }
+
+  button {
+    font-size: 0.95em;
+    padding: 8px 20px;
+  }
+
+  .cards-pizza img {
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 600px) {
+  header {
+    padding: 40px 0 20px;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  .ana-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 60px;
+  }
+
+  .cards-pizza {
+    width: 90%;
+    max-width: 300px;
+    padding: 25px 15px 55px;
+  }
+
+  .cards-pizza h2 {
+    font-size: 1.2em;
+  }
+
+  .estrelas-ana {
+    font-size: 0.6em;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px 18px;
+  }
+
+  .cards-pizza img {
+    width: 90px;
+    height: 90px;
+    bottom: -45px;
+  }
+}
