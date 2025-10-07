@@ -1,0 +1,24 @@
+/*Lara*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+.menu a {
+    color: rgb(236, 220, 175);
+ 
+}
+.menu a:hover {
+    color: #e0b04e;
+}
+main {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5)),
+        url("https://img.freepik.com/vetores-gratis/padrao-guingao-fundo-vermelho_78370-2241.jpg?semt=ais_hybrid&w=740&q=80");
+}
+.subtitulo {
+    color: #9f3413;
+    font-weight: bold;
+}
+.botao-entrar {
+    background-color: #53567e;
+    color: #ffffff ;
+}
+.botao-entrar:hover {
+    background-color: #6a6eb0; 
+}
