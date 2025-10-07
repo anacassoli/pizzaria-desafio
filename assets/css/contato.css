@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.xadrez {
+    background: repeating-linear-gradient(
+        to right,
+        #c63a2a 0 100px,
+        #efdcba 100px 200px
+    );
+    background-size: 200px 200px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.xadrez h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #000;
+    max-width: 90%;
+}
+
+.contato {
+    background-color: #5e707e;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 150px 20px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    max-width: 260px;
+    margin: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card p {
+    color: #d9d9d9;
+    font-size: 0.95rem;
+    margin: 6px 0;
+}
+
+.card .info {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Tablets */
+@media (max-width: 900px) {
+    .contato {
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 20px;
+    }
+
+    .xadrez {
+        height: 220px;
+    }
+
+    .xadrez h1 {
+        font-size: 2rem;
+    }
+}
+
+/*telefone */
+@media (max-width: 600px) {
+    .xadrez {
+        height: 180px;
+        background-size: 120px 120px;
+    }
+
+    .xadrez h1 {
+        font-size: 1.6rem;
+    }
+
+    .contato {
+        padding: 60px 10px;
+    }
+
+    .card {
+        max-width: 90%;
+        margin: 15px 0;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .card h2 {
+        font-size: 1.1rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+}
