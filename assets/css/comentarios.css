@@ -12,8 +12,8 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding: 30px;
     font-family: "Inria Serif", serif;
-    padding: 400px 0;
     background-color: #f9f5d8;
 }
 
@@ -24,17 +24,18 @@
     color: #5c2b1a;
     margin-bottom: 20px;
 }
+/*-------------------------------nick_1---------------------------------------*/
 
 /* Container */
 .nickContainer {
+     flex-wrap: wrap ;
     display: flex;
     justify-content: center;
     gap: 40px; /* Reduzi o gap para o padrão original, caso as caixas menores voltem */
 }
 
 
-
-/* Comentários (Boxes Gerais) */
+/* Nome, comentários e avaliações (Boxes Gerais) */
 .nickCaixa1 {
     position: relative;
     display: flex;
@@ -171,7 +172,4 @@
     font-size: 14px;
   }
 }
-
-
-
 
