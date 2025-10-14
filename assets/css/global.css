@@ -88,3 +88,50 @@ button {
 .giovanna-contieri-fundo-gradiente {
   background: radial-gradient(circle, rgba(255,180,0,0.4) 0%, rgba(255,180,0,0) 70%);
 }
+
+  /*Nicolas*/
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.nickFundo {
+    font-family: "Inria Serif", serif;
+    background-color: #f9f5d8;
+}
+
+.nick-Titulo h1 {
+    color: #5c2b1a;
+   
+}
+
+.nickCaixa1 {
+    background: #fff3d4;
+    border: 3px solid #d65b35;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+}
+
+.nickCaixa1::before {
+    background-color: #d65b35;
+}
+
+.imagemRedonda {
+    border: 2px solid #d65b35; }
+  
+.nome-1 {
+    font-family: "Inria Serif", serif;
+
+.nome-2 {
+    font-family: "Inria Serif", serif;
+
+.data {
+    font-size: 16px;
+    color: #d65b35;
+
+.avaliação  {
+    font-size: 20px;
+    color: #d65b35;
+
+.nickComentário {
+    font-size: 22px; 
+    color: #5c2b1a; 
+
+
