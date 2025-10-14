@@ -3,7 +3,7 @@
 
 .nickContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: left;
   }
 
 /* Fundo geral */
@@ -47,7 +47,7 @@
     box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
     
     /* Tamanho da box - Ajustado para o exemplo da imagem */
-    width: 600px; 
+    width: 400px; 
     height: auto;
     padding: 30px; 
     padding-top: 50px; 
@@ -57,11 +57,7 @@
 
 /* Adiciona a barra superior vermelha */
 .nickCaixa1::before {
-    content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     height: 30px; 
     background-color: #d65b35;
     
@@ -175,6 +171,7 @@
     font-size: 14px;
   }
 }
+
 
 
 
